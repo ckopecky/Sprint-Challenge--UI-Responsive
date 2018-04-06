@@ -130,7 +130,7 @@ header nav a:link{
 }
 
 .middle-content h2 {
-    padding: 0 2%;
+    padding: 0 4%;
     margin-bottom: 0;
 }
 .middle-content .boxes {
@@ -169,12 +169,11 @@ header nav a:link{
 }
 
 footer {
-    width: 100%;
+    width: 67%;
     background: black;
 }
 
 footer nav {
-    width: 60%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -286,8 +285,8 @@ footer nav a {
         flex-direction:row-reverse;
     }
     .box{
-        max-width: 8rem;
-        max-height: 8rem;
+        max-width: 10rem;
+        max-height: 10rem;
         width: 100%;
         display: flex;
         margin: 5px 15px 5% 0%;
@@ -295,4 +294,7 @@ footer nav a {
     .box:nth-child(10){
         display:none;
     }
-    
+    footer {
+        width:100%;
+    }
+}
