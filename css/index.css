@@ -169,7 +169,7 @@ header nav a:link{
 }
 
 footer {
-    width: 67%;
+    width: 100%;
     background: black;
 }
 
@@ -179,6 +179,7 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 1.4rem;
+    width:67%;
 }
 
 footer nav a {
@@ -201,6 +202,9 @@ footer nav a {
     }
     .box:nth-child(10){ 
         background:lawngreen;
+    }
+    .box {
+        width: 12.5%;
     }
 }
 
@@ -237,6 +241,9 @@ footer nav a {
     }
     .box:nth-child(9){
         background:crimson;
+    }
+    .box {
+        width: 13%;
     }
 }
 
@@ -287,14 +294,14 @@ footer nav a {
     .box{
         max-width: 10rem;
         max-height: 10rem;
-        width: 100%;
+        width: 25%;
         display: flex;
         margin: 5px 15px 5% 0%;
     }    
     .box:nth-child(10){
         display:none;
     }
-    footer {
+    footer nav {
         width:100%;
     }
 }
