@@ -250,7 +250,7 @@ footer nav a {
 @media(max-width:400px){
     .container{
         width:100%;
-        margin:0;
+        margin:.5rem;
     }
     header{
         flex-direction:column;
@@ -264,6 +264,7 @@ footer nav a {
         width: 100%;
         display:flex;
         margin:0;
+        padding:0;
         align-items:center;
     }
     header nav a:link{
@@ -272,7 +273,7 @@ footer nav a {
         flex-direction: row;
         border-bottom: 1px solid gray;
         padding:15px 0;
-        font-size:2rem;
+        font-size:1.4rem;
         text-align: center;
     }
     
@@ -285,9 +286,25 @@ footer nav a {
         order: -1;
         margin: 20px 0;
         align-self:center;
-        height: 15.7%;
         width:39.25%;
+        padding-top: 12px;
+        padding-left: 8px;
+
+
     }
+    .top-content .text-container {
+        display:block; 
+        width:100%
+    }
+    .bottom-content {
+        padding-right: 4%;
+        display:block;
+        width:100%
+    }
+    .bottom-content .text-container {
+        margin-bottom:10px;
+    }
+    
     .boxes{
         flex-direction:row-reverse;
     }
@@ -303,5 +320,7 @@ footer nav a {
     }
     footer nav {
         width:100%;
+        display:flex;
+        justify-content: space-around;
     }
 }
