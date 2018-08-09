@@ -73,8 +73,8 @@ p {
 .container {
     max-width: 800px;
     width: 100%;
-    margin-top:20px;
-    margin-left:9%
+    margin:20px auto;
+    
 }
 
 header{
@@ -143,7 +143,8 @@ header nav a:link{
 
 .box {
     width: 12.5%;
-    height: 100px;
+    min-height: 100px;
+    height: auto;
     background: black;
     margin: 20px 2.5%;
     color: white;
